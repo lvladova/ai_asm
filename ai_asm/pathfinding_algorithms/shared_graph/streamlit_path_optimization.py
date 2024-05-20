@@ -1,4 +1,5 @@
 import streamlit as st
+import pyvis
 from pyvis.network import Network
 import os
 from graph_a_start import create_graph
