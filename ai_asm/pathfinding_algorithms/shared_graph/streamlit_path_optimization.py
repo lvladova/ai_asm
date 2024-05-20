@@ -7,6 +7,7 @@ from ant_colony import ant_colony_optimization
 from ga import genetic_algorithm, objective_function_distance, objective_function_traffic, objective_function_urgency, objective_function_combined, nx_to_dot
 from graph_a_start import a_star_algorithm, heuristic_distance, traffic_heuristic, urgency_heuristic, combined_heuristic
 
+import streamlit.components.v1 as components
 
 def main():
     # Slider to select the number of nodes
