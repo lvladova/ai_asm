@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+
 def initialize_pheromones(G, initial_pheromone):
     """
     Initialize the pheromone levels for all edges in the graph.
